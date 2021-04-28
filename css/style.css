@@ -8,7 +8,7 @@
 
 /* inizio nav */
 
-nav{
+.nav-top{
     background-color:#3161E0;
     text-align: center;
     height: 100px;
@@ -156,12 +156,57 @@ h2{
     display: block;
     clear: both;
 }
-    
+ 
+/* WAVE */
 .wave{
     display: block;
 }
+ 
+/* FOOTER */
+
+footer{
+    background-color: black;
+    height: 400px;
     
+}
+
+.foot-section{
+    text-align: center;
+}
+
+.foot-first{
+    width: 20%;
+    vertical-align: middle;
+   
+}
+
+.nav-foot{
+    width: 90%;
     
+}
+
+footer .nav-foot ul{
+    display: inline-block;
+    
+}
+
+
+footer .nav-foot ul li:first-child{
+    color: turquoise;
+    text-decoration: none;
+}
+
+footer .nav-foot li a{
+     text-decoration: none;
+     color: white;
+ } 
+ 
+ hr{
+     color: turquoise;
+ }
+ h3{
+     color: turquoise;
+ }
     
 
 
