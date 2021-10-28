@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
 }
 
 
@@ -53,7 +54,7 @@
 /* inizio jumbotron */
     
    .jumbotron{
-       height: 500px;
+       min-height: 500px;
        background-image: url(../img/jumbo.png);
        background-size: cover;
        color: white;
@@ -166,48 +167,52 @@ h2{
 
 footer{
     background-color: black;
-    height: 400px;
-    
-}
-
-.foot-section{
-    text-align: center;
-}
-
-.foot-first{
-    width: 20%;
-    vertical-align: middle;
    
 }
 
-.nav-foot{
-    width: 90%;
     
+
+.footer-alto{
+    
+    padding: 50px;
 }
 
-footer .nav-foot ul{
+.foot-interno{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-basso{
+    padding: 50px;
+}
+
+
+
+footer .foot-interno ul{
     display: inline-block;
+    list-style: none;
+    margin: 30px;
+}
     
+.foot-interno ul li{
+    line-height: 40px;
 }
 
-
-footer .nav-foot ul li:first-child{
-    color: turquoise;
+footer span, h3{
+    color: #6477BC;
     text-decoration: none;
 }
 
-footer .nav-foot li a{
+footer .foot-interno li a{
      text-decoration: none;
      color: white;
  } 
  
  hr{
-     color: turquoise;
+     color: #6477BC;
+     margin-bottom: 30px;
  }
- h3{
-     color: turquoise;
- }
-    
+  
 
 
     
